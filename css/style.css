@@ -1,0 +1,148 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* fonts */
+.heading-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.medium-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.regular-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.bold-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+.small-text {
+    font-size: 16px;
+    line-height: 13px;
+}
+.main-heading-text {
+    font-size: 56px;
+    line-height: 60px;
+    color: #000000;
+}
+.heading-text {
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+.discription-text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.shadow-text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #9ca0ac;
+}
+.card-text {
+    font-size: 22px;
+    line-height: 25.78px;
+}
+.my-mark {
+    background: #ffff00;
+}
+/* header */
+.header-logo-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    margin-left: 10px;
+}
+.header {
+    background: #fff;
+}
+/* main page */
+.bg-main-page {
+    background: #eee;
+}
+.main-page-container {
+    padding: 50px 0 55px;
+}
+.main-heading-block {
+    padding: 170px 0 192px;
+}
+.main-heading-block {
+    max-width: 700px;
+}
+.discription-text-main-page {
+    max-width: 580px;
+}
+/* email send form */
+.email-input-container {
+    width: 400px;
+}
+.email-input {
+    border: 3px solid #0066FF;
+    width: 250;
+    height: 50px;
+}
+.email-input-btn {
+    background: #0066FF;
+}
+.after-point {
+    display: inline-block;
+}
+.after-point:not(:last-child):after {
+    content: url(../assets/vectors/point.svg);
+    display: inline-block;
+    margin: auto 0;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+/* widget for every web */
+.for-every-web-section {
+    padding: 160px 0;
+}
+.button-widget {
+    max-width: 320px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: background 0.5s;
+}
+.button-widget img {
+    object-fit: cover;
+}
+.button-widget:hover {
+    background: #F4F6FA;
+    cursor: pointer;
+    color: #0066FF;
+}
+/* card */
+.card-soc-site {
+    width: 230px;
+    height: 182px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+/* adaptive */
+ /* main page */
+@media (max-width: 1199px) {
+    .main-heading-block {
+        padding: 0;
+        margin: 0 auto;
+    }
+    .main-bg-img {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 759px) {
+
+}
+@media (max-width: 767px) {
+    .send-email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
