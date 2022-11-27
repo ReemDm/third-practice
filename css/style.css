@@ -46,6 +46,14 @@
     font-size: 22px;
     line-height: 25.78px;
 }
+.heading-stonks-card-text {
+    font-size: 32px;    
+    line-height: 38px;
+}
+.under-heading-stonks-card-text {
+    font-size: 24px;
+    line-height: 28px;
+}
 .my-mark {
     background: #ffff00;
 }
@@ -76,6 +84,13 @@
 }
 .discription-text-main-page {
     max-width: 580px;
+}
+.main-bg-img {
+    overflow: hidden;
+}
+.company-logos-div {
+    display: flex;
+    justify-content: center;
 }
 /* email send form */
 .email-input-container {
@@ -118,15 +133,43 @@
     cursor: pointer;
     color: #0066FF;
 }
-/* card */
+/* card soc-site*/
 .card-soc-site {
     width: 230px;
     height: 182px;
     background: #FFFFFF;
     border-radius: 10px;
 }
+/* stonks-card */
+.card-stonks {
+    max-width: 370px;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+.quote-ben-calahen {
+    max-width: 500px;
+    margin: 0 auto;
+}
+/* templates section */
+.bg-templates {
+    background: #111827;
+}
+.templates-heading {
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.card-templates {
+    padding: 20px;
+    height: 200px;
+}
+.templates-container {
+    padding: 80px 0px;
+}
 /* adaptive */
- /* main page */
 @media (max-width: 1199px) {
     .main-heading-block {
         padding: 0;
@@ -137,6 +180,9 @@
     }
 }
 @media (max-width: 759px) {
+    .main-bg-img {
+        width: 100%;
+    }
 
 }
 @media (max-width: 767px) {
@@ -144,5 +190,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .company-logos-div {
+        overflow: scroll;
     }
 }
