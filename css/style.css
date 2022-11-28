@@ -22,6 +22,10 @@
     font-size: 16px;
     line-height: 13px;
 }
+.tiny-text {
+    font-size: 14px;
+    line-height: 16px;
+}
 .main-heading-text {
     font-size: 56px;
     line-height: 60px;
@@ -169,6 +173,30 @@
 .templates-container {
     padding: 80px 0px;
 }
+/* functional block */
+.functional-block-section {
+    padding: 150px 0;
+}
+.functional-btn {
+    border-radius: 3px;
+    padding: 10px;
+    background: #EEF1F7;
+    color: #000000;
+}
+.functional-btn-active {
+    background: #E6EBFF;
+    color: #0066FF;
+}
+.container-functional-btn {
+    gap: 0 10px;
+}
+.advantages-our-plagin {
+    margin-right: 40px;
+}
+.advantages-our-plagin::before {
+    content: url(../assets/vectors/check-out.svg);
+    margin-right: 10px;
+}
 /* adaptive */
 @media (max-width: 1199px) {
     .main-heading-block {
@@ -178,12 +206,14 @@
     .main-bg-img {
         margin: 0 auto;
     }
+    .container-functional-btn {
+        gap: 5px 10px;
+    }
 }
 @media (max-width: 759px) {
     .main-bg-img {
         width: 100%;
     }
-
 }
 @media (max-width: 767px) {
     .send-email {
